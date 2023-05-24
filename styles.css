@@ -1,0 +1,63 @@
+* {
+  background-color: #161616;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'LigaSF Mono Nerd Font';
+  font-size: 20px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+header {
+  text-align: center;
+}
+
+b {
+  color: #ee5496;
+  font-size: 50px;
+}
+
+a {
+  color: #42be65;
+}
+
+h1 {
+  color: #33b1ff;
+  text-align: center;
+}
+
+h2 {
+  color: #be95ff;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin: 0 20% 0 20%;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  padding: 30px;
+}
+
+footer {
+  background-color: #161616;
+}
+
+@font-face {
+  font-family: 'LigaSF Mono Nerd Font';
+  src: url('./fonts/LigaSFMonoNerdFont-Regular.otf');
+}
